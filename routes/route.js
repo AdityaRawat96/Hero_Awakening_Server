@@ -25,6 +25,8 @@ router.post("/addProfile", (req, res) => {
       body: req.body.body,
     },
     img: req.body.img,
+    thumbnail: req.body.thumbnail,
+    audioPath: req.body.audio,
   });
   let st;
   let msg;

@@ -20,9 +20,15 @@ const Profile = mongoose.model("Profile", {
   },
   img: {
     type: String,
+    required: true,
+  },
+  thumbnail: {
+    type: String,
+    required: true,
   },
   audioPath: {
     type: String,
+    required: true,
   },
   videoPath: {
     type: String,
